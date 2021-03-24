@@ -16,6 +16,7 @@ class _HomePageState extends State<HomePage> {
 
   @override
   Widget build(BuildContext context) {
+    print("Hi");
     return MaterialApp.router(
       title: 'Books App',
       routerDelegate: _routerDelegate,
